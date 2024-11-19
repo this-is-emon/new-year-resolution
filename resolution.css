@@ -78,7 +78,6 @@ ul {
   padding: 0; /* Remove padding */
   margin: 0; /* Remove margin */
 }
-
 /* failure ornamentation */
 .failure-title {
   width: 288px;
@@ -95,4 +94,18 @@ ul li {
   color: var(--Dark-02, #444343);
   font-size: 16px;
   line-height: 26px; /* 162.5% */
+}
+
+/** -'plans' section styling- **/
+/* plans skeleton */
+.plans {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.plans-info {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
 }

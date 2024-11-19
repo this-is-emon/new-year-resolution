@@ -53,17 +53,19 @@ header {
   line-height: normal;
 }
 
-// 'main' section styling starts
+// 'main'  styling starts
 .main {
   max-width: 1140px;
   margin: 130px auto;
 }
+
+// Section 'failure' styling
 .failure {
   margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 80px;
+  gap: 30px;
 }
 .failure-items {
   max-width: 350px;
@@ -92,3 +94,9 @@ ul {
   padding: 0; /* Remove padding */
   margin: 0; /* Remove margin */
 }
+
+
+
+
+
+

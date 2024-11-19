@@ -78,3 +78,21 @@ ul {
   padding: 0; /* Remove padding */
   margin: 0; /* Remove margin */
 }
+
+/* failure ornamentation */
+.failure-title {
+  width: 288px;
+  color: var(--Dark-01, #151414);
+  font-size: 40px;
+  font-weight: 700;
+}
+.failure-description {
+  color: var(--Dark-02, #444343);
+  font-size: 16px;
+  line-height: 26px; /* 162.5% */
+}
+ul li {
+  color: var(--Dark-02, #444343);
+  font-size: 16px;
+  line-height: 26px; /* 162.5% */
+}

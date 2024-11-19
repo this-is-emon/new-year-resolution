@@ -158,3 +158,27 @@ ul li {
   font-size: 20px;
   font-weight: 600;
 }
+
+/** -'footer' styling- **/
+/* footer skeleton */
+.footer {
+  background: var(--Dark-01, #151414);
+  padding: 130px 230px;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.future {
+  width: 485px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.subscribe {
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

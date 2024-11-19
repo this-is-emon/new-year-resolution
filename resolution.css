@@ -109,3 +109,20 @@ ul li {
   justify-content: center;
   gap: 100px;
 }
+/* plans ornamentation */
+.plans-title {
+  color: var(--Dark-01, #151414);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 55px;
+}
+.info-tile {
+  color: var(--Dark-01, #151414);
+  font-size: 30px;
+  font-weight: 700;
+}
+.info-value {
+  color: var(--Dark-03, #737272);
+  font-size: 20px;
+  font-weight: 500;
+}

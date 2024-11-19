@@ -59,3 +59,22 @@ header {
   max-width: 1140px;
   margin: 130px auto;
 }
+
+/** -'failure' section styling- **/
+/* failure skeleton */
+.failure {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.failure-container {
+  width: 416px;
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  gap: 20px; /* Add vertical spacing */
+}
+ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}

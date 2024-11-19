@@ -1,102 +1,61 @@
-body {
+* {
   margin: 0px;
 }
+
+/* font awesome */
+.work-sans-normal {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/**** ----'header' styling---- ****/
 header {
   background-image: url("/images/banner/banner1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+/* banner skeleton */
 .banner {
   display: flex;
   flex-direction: column;
   align-items: end;
-  /* margin-right: 100px;
-  margin-bottom: 2rem; */
-  padding-right: 100px;
-  padding-bottom: 120px;
+  padding: 200px 100px;
+  gap: 25px;
 }
+/* banner ornamentation */
 .banner-intro {
   width: 525px;
   color: var(--Dark-01, #151414);
   text-align: right;
-  font-family: "Work Sans";
   font-size: 65px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 .banner-description {
   width: 494px;
   color: var(--Dark-02, #444343);
   text-align: right;
-  font-family: "Work Sans";
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
 }
 .btn-primary {
   width: 160px;
   height: 64px;
-  flex-shrink: 0;
   border-radius: 5px;
   background: #f15b22;
   border: none;
 
   color: #fff;
   text-align: center;
-  font-family: "Work Sans";
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
 }
 
-// 'main'  styling starts
+/**** ---- 'main'  styling ---- ****/
 .main {
   max-width: 1140px;
   margin: 130px auto;
 }
-
-// Section 'failure' styling
-.failure {
-  margin-top: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-}
-.failure-items {
-  max-width: 350px;
-  align-items: left;
-}
-.failure-title {
-  /* width: 288px; */
-  color: #151414;
-  font-family: "Work Sans";
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.failure-description {
-  color: #444343;
-  font-family: "Work Sans";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px; 162.5%
-}
-
-ul {
-  list-style: none; /* Remove default bullet points */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margin */
-}
-
-
-
-
-
-
